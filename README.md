@@ -1,6 +1,6 @@
 # ClienteAppRegistration
 
-## Sistema de cadastro de clientes back e front, com comunicação via API.
+## Sistema de cadastro de clientes back e front, com comunicação via API, todas funcionalidade do CRUD implementadas.
 
 
 ### Front-end -> Angular
