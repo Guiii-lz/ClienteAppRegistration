@@ -1,0 +1,5 @@
+package com.project.client.rest.exception;
+
+public class ApiErrors {
+
+}

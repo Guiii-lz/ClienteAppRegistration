@@ -1,0 +1,16 @@
+package com.project.client.rest;
+
+import org.springframework.boot.context.properties.bind.BindResult;
+import org.springframework.web.bind.MethodArgumentNotValidException;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+@RestControllerAdvice
+public class ApplicationControllerrAdvice {
+
+	
+	@ExceptionHandler(MethodArgumentNotValidException.class)
+	public Object handleValidationError( MethodArgumentNotValidException ex) {
+		BindResult bindingResult = ex.getBindingResult();
+	}
+}

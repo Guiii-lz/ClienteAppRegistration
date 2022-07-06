@@ -1,0 +1,5 @@
+package com.project.client.rest;
+
+public class ApplicationControllerrAdvice {
+
+}
